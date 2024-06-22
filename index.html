@@ -6,9 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ramme Tecnologia</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
+  <div class="dropdown">
+    <select id="languageSelect">
+      <option value="pt-br">PT</option>
+      <option value="en">EN</option>
+    </select>
+  </div>
   <div class="centralizado">
     <h1>Bruno Ramme</h1>
     <div class="tecs">
@@ -16,10 +23,13 @@
     </div>
 
     <div class="tecs">
-      <p>Senior Software Engineer | Scrum Master | Product Owner | Full Stack </p>
-      <p>Java | COBOL | JavaScript | TypeScript | C | Angular</p>
-      <p>ERP | PCP | WMS | MRP | Industry 4.0 </p>
-      <p>Electronics Technician | Automation </p>
+      <p id="role" style="font-size: larger; font-weight: bold;">Senior Software Engineer</p>
+      <p id="skills">Scrum Master | Product Owner | Full Stack </p>
+      <p id="technologies">Java | COBOL | JavaScript | TypeScript | C | Angular</p>
+      <p id="industries">ERP | PCP | WMS | MRP | Industry 4.0 </p>
+      <p id="eletronic">Electronics Technician | Automation </p>
+      <p id="ai">AI Enthusiast</p>
+      <p id="languages">Portuguese | English </p>
     </div>
     <p style="margin-top: 20px;">
       <a href="https://github.com/brunoraz" style="margin-right: 20px;"><img src="assets/img/github-9-32.ico"
@@ -29,7 +39,7 @@
     </p>
   </div>
   <div class="footer">
-    <p>© 2024 Bruno Ramme.</p>
+    <p id="footer">© 2024 Bruno Ramme.</p>
   </div>
 </body>
 

@@ -34,6 +34,30 @@ img {
     height: 16px;
   }
 
+
+.dropdown {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    margin: 1em;
+    z-index: 1000;
+    border: none; 
+}
+.dropdown select {
+    padding: 0.5em;
+    font-size: small;
+    background-color: #1a237e; 
+    color: rgba(255, 255, 255, 0.863); 
+    border: none; 
+    border-radius: 5px; 
+    outline: none; 
+}
+
+.dropdown select:hover {
+    cursor: pointer;
+    background-color: #2a2f8e; 
+}
+
 .tecs {
     display: flex;
     flex-direction: column;
