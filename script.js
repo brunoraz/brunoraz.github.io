@@ -3,8 +3,10 @@ const translations = {
   'pt-br': {
     title: "Ramme Tecnologia",
     role: "Engenheiro de Software Sênior",
+    role2: "Gerente de Projeto",
     skills: "Scrum Master | Product Owner | Full Stack",
-    technologies: "Java | COBOL | JavaScript | TypeScript | C | Angular",
+    technologies: "Java | COBOL | JavaScript | TypeScript | C ",
+    frameworks: "Flutter | Angular | Node.js",
     industries: "ERP | PCP | WMS | MRP | Indústria 4.0",
     eletronic: "Técnico em Eletrônica | Automação",
     ai: "Entusiasta de IA",
@@ -14,8 +16,10 @@ const translations = {
   'en': {
     title: "Ramme Technology",
     role: "Senior Software Engineer",
+    role2: "Project Manager",
     skills: "Scrum Master | Product Owner | Full Stack",
-    technologies: "Java | COBOL | JavaScript | TypeScript | C | Angular",
+    technologies: "Java | COBOL | JavaScript | TypeScript | C",
+    frameworks: "Flutter | Angular | Node.js",
     industries: "ERP | PCP | WMS | MRP | Industry 4.0",
     eletronic: "Electronics Technician | Automation",
     ai: "AI Enthusiast",
@@ -28,8 +32,10 @@ const translations = {
 function updateTextContent(language) {
   document.title = translations[language].title;
   document.querySelector('#role').textContent = translations[language].role;
+  document.querySelector('#role2').textContent = translations[language].role2;
   document.querySelector('#skills').textContent = translations[language].skills;
   document.querySelector('#technologies').textContent = translations[language].technologies;
+  document.querySelector('#frameworks').textContent = translations[language].frameworks;
   document.querySelector('#industries').textContent = translations[language].industries;
   document.querySelector('#eletronic').textContent = translations[language].eletronic
   document.querySelector('#ai').textContent = translations[language].ai;
